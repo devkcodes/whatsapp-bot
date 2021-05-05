@@ -23,7 +23,7 @@ app.post('/', (req, res) => {
     let { number,message } = req.body;
     let errors = [];
     const numbers = number.toString().split(/[\s,]+/);
-  console.log('hey');
+  console.log('heyy');
   
    
     wbm.start({showBrowser: true, qrCodeData: true, session: false})
