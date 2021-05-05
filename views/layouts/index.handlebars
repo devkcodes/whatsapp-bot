@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="/css/style.css">
+    <title>CodeGig</title>
+</head>
+
+<body>
+    <section id="add" class="container">
+
+        <section class="logo">
+            <img
+                src="https://res.cloudinary.com/dsph4eptm/image/upload/c_scale,w_830/v1620231459/WhatsApp_Bulk_Message_Sender_ye_uuhzrk.png" />
+        </section>
+        <div class="form-wrap">
+
+            <form action="/" method="POST">
+                <label style="font-size:24px" for="number">Enter Phone Numbers</label>
+                <span class="span-text-phone">(Enter comma separated 12 digit numbers with country code. Eg :
+                    914340238233,913839428593)</span>
+
+                <div class="input-group">
+
+                    <input type="text" name="number" id="number" class="input-box"
+                        placeholder="Target whatsapp number(s)" required>
+                </div>
+                <div class="input-group">
+                    <label style="font-size:24px" for="message">Enter Message</label>
+                    <textarea name="message" id="message" class="input-box" placeholder="Enter a common message"
+                        style="width:740px;height:200px" required></textarea>
+                </div>
+
+                <input type="submit" value="Send Message" class="btn btn-reverse">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "whastsapp-message",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "devansh Katheria",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.1",
+    "wbm": "^1.1.14"
+  },
+"engines": {
+  "node": "14.16.0"
+}
+}
